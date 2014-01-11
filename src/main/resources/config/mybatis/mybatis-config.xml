@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"    
+"http://mybatis.org/dtd/mybatis-3-config.dtd">  
+<!--配置项主要有三项：别名,应用环境，mapper文件位置-->  
+<configuration>
+	
+	<typeAliases>
+		<!--  typeAlias type="com.angler.plat.mvcweb.demo.vo.Dict" alias="Dict"/ -->
+	</typeAliases>
+	
+	<mappers>
+		<!-- mapper resource="config/mybatis/demo/dict-mapper.xml"/ -->
+	</mappers>
+	
+</configuration>
